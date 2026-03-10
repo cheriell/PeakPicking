@@ -3,16 +3,10 @@ This module implements the local threshold peak picking algorithm.
 
     Restructured from Sunny's code at https://github.com/SunnyCYC/CrossModalBeat/blob/main/genEST-LOC-ABT.py
     
-Running instructions:
+Example usage:
 
     est = detect_peaks_loc(x, Fs, win_sec)
     
-    where:
-        - x: the novelty function, in the shape of a 1D array.
-        - Fs: the sampling frequency, in Hz.
-        - win_sec: the window size in seconds.
-    Returns:
-        - est: the estimated peak in seconds.
 """
 
 import numpy as np
