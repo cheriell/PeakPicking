@@ -14,4 +14,4 @@ where:
 Returns:
 - est: the estimated peak in seconds.
 
-Please refer to `./docs/example_usage.ipynb` for example usage.
+Please refer to [`./docs/example_usage.ipynb`](./docs/example_usage.ipynb) for example usage.
