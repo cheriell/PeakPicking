@@ -1,8 +1,8 @@
 # PeakPicking
 
-This repository provides cleaned-up implementation for the peak picking algorithm with a global or local threshold set up in our paper [Cross-Modal Approaches to Beat Tracking: A Case Study on Chopin Mazurkas](https://transactions.ismir.net/articles/10.5334/tismir.238).
+This repository provides cleaned-up implementation for the peak picking algorithm with a global or local threshold in our paper [Cross-Modal Approaches to Beat Tracking: A Case Study on Chopin Mazurkas](https://transactions.ismir.net/articles/10.5334/tismir.238).
 
-Code is reorganized from Sunny's original [code repo](https://github.com/SunnyCYC/CrossModalBeat/blob/main/genEST-LOC-ABT.py) for our paper.
+Code is reorganized from Sunny's original [code repo](https://github.com/SunnyCYC/CrossModalBeat/blob/main/genEST-LOC-ABT.py) of our paper.
 
 ## 1. Running instructions
 
