@@ -1,17 +1,7 @@
-r"""
-This module implements the local threshold peak picking algorithm.
-
-    Restructured from Sunny's code at https://github.com/SunnyCYC/CrossModalBeat/blob/main/genEST-LOC-ABT.py
-    
-Example usage:
-
-    est = detect_peaks_loc(x, Fs, win_sec)
-    
-"""
-
 import numpy as np
 from scipy.signal import find_peaks
 from scipy.ndimage import gaussian_filter1d
+
 
 def compute_local_average(x, M):
     r"""Compute local average of signal
