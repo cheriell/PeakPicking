@@ -2,9 +2,9 @@
 
 This repository provides implementation for the peak picking algorithm with a local threshold set up in our paper [Cross-Modal Approaches to Beat Tracking: A Case Study on Chopin Mazurkas](https://transactions.ismir.net/articles/10.5334/tismir.238).
 
-## Running instructions
+## 1. Running instructions
 
-### Peak picking with global threshold
+### 1.1. Peak picking with global threshold
 
     from peak_picking.glb import detect_peaks_glb
     est = detect_peaks_glb(x, Fs, pk_height)
@@ -21,7 +21,7 @@ where:
 
 Please refer to [`./docs/example_usage_glb.ipynb`](./docs/example_usage_glb.ipynb) for example usage.
 
-### Peak picking with local threshold
+### 1.2. Peak picking with local threshold
 
     from peak_picking.loc import detect_peaks_loc
     est = detect_peaks_loc(x, Fs, win_sec)
