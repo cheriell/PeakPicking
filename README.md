@@ -17,7 +17,7 @@ where:
         pk_height (float): Threshold height for peak detection (after gussian filter and normalization). E.g., 0.01.
         
     Returns:
-        est (np.ndarray): Estimated peak in seconds.
+        est (np.ndarray): Estimated peaks in seconds.
 
 Please refer to [`./docs/example_usage_glb.ipynb`](./docs/example_usage_glb.ipynb) for example usage.
 
@@ -34,6 +34,6 @@ where:
         win_sec (float): Window size for local average in seconds. E.g., 5, 10, 20.
 
     Returns:
-        est (np.ndarray): Estimated peak in seconds.
+        est (np.ndarray): Estimated peaks in seconds.
 
 Please refer to [`./docs/example_usage_loc.ipynb`](./docs/example_usage_loc.ipynb) for example usage.

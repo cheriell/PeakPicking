@@ -38,7 +38,7 @@ def detect_peaks_loc(x : np.ndarray, Fs : int = 100, win_sec : float = 10.0):
         win_sec (float): Window size for local average in seconds. E.g., 5, 10, 20.
     
     Returns:
-        est (np.ndarray): Estimated peak in seconds.
+        est (np.ndarray): Estimated peaks in seconds.
     """
     
     global_height = 0.01  # Global minimum height of the novelty function

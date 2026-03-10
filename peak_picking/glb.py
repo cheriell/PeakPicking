@@ -16,7 +16,7 @@ def detect_peaks_glb(x : np.ndarray, Fs : int = 100, pk_height : float = 0.01):
         pk_height (float): Threshold height for peak detection (after gussian filter and normalization). Between 0 and 1. E.g., 0.01.
         
     Returns:
-        est (np.ndarray): Estimated peak in seconds.
+        est (np.ndarray): Estimated peaks in seconds.
     """
     
     pk_prominence = 0.01  # Prominence threshold for peak detection. E.g., 0.01.
